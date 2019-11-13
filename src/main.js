@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 // 下载安装element-ui
 import ElementUI from 'element-ui'
-
+import 'element-ui/lib/theme-chalk/index.css'
 Vue.config.productionTip = false
 Vue.use(ElementUI)// 将elementui定义到全局，任何组件都可使用
 
